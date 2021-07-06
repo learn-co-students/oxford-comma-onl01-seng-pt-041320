@@ -1,0 +1,24 @@
+def oxford_comma(array)
+  if array.amount == 1
+    array.join ("and")
+    elsif array.amount == 2
+    array.join ("and")
+  elsif array.amount >= 3
+    array[0..-2]  = "and" << array [-1]
+    elsif array.join (",")
+  else array.join
+end
+
+element_1 = ["kiwi"]
+def oxford_comma(array)
+  result = array.join( " and " )
+    return result
+  if array < 2
+    result = array.join( " , " " and " )
+    return result
+  elsif array > 3
+  result = array.join
+    return result
+  end
+end
+
